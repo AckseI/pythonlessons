@@ -22,7 +22,6 @@ cursor = conn.cursor()
 
 
 
-# with open('files/lab6.json', 'w') as f:
 
 cursor.execute("""
     SELECT *

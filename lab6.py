@@ -20,9 +20,6 @@ cursor = conn.cursor()
 #     ('Smork', 'Smork.com', 21)
 #     """)
 
-
-
-
 cursor.execute("""
     SELECT *
     FROM Users
